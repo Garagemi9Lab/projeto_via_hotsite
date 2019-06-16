@@ -1,0 +1,135 @@
+/*
+	Theme Name: Via
+	Theme URI: 
+	Author: Raiane Christine
+	Description: This is main website template.
+	Version: 1.0
+	Tags: 
+*/
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-bold;
+	src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+/**
+* 
+*
+* @RESET
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	text-decoration: none;
+	transition: All 0.5s;	
+}
+
+/**
+* 
+*
+* @PROPRIEDADE DE ELEMENTOS
+*/
+html { overflow-y: scroll; }
+html { overflow: -moz-scrollbars-vertical; }
+html { overflow-x: auto; }
+
+body{
+  line-height: 1;
+  font-family:  "Montserrat-Regular", sans-serif;
+  color: #333333;
+}
+
+img{
+	max-width: 100%;
+    height: auto;
+}
+
+h1{
+	font-size: 36px;}
+h2{
+	font-size: 28px;
+}
+h3{
+	font-size: 22px;
+}
+h4{
+	font-size: 18px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+p{
+	margin-top: 0px;
+    margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+}
+b, strong {
+    font-weight: 700;
+}
+i, em{
+	font-style: italic;
+}
+a:hover{
+	transition: all 1s;
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #c0c0c0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #c0c0c0;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #c0c0c0;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #c0c0c0;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #c0c0c0;
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    #c0c0c0;
+}
+input,
+select,
+textarea{
+	outline: 0;
+}
+.wpcf7-form-control-wrap{
+    float: left;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.alignright{
+	float: right;
+}
+.alignleft{
+	float: left;
+} 
+

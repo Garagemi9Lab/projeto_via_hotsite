@@ -11,7 +11,7 @@ class HotSiteController extends Controller
     //Pagina inicial
     public function index(){
         try {
-            return 'index';
+            return view('page-home');
         } catch (\Exception $e) {
             return 'erro';
         }
@@ -20,7 +20,7 @@ class HotSiteController extends Controller
     //Pagina sobre
     public function sobre(){
         try {
-            return 'sobre';
+            return view('page-sobre');
         } catch (\Exception $e) {
             return 'erro';
         }
