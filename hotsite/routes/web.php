@@ -4,7 +4,7 @@
 
 Auth::routes();
 
-Route::get('/home', 'HotSiteController@index')->name('home');
+Route::get('/home', 'AdminController@index')->name('home');
 Route::get('/', 'HotSiteController@index')->name('index');
 Route::get('/sobre', 'HotSiteController@sobre')->name('sobre');
 
