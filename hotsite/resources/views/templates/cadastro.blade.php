@@ -6,11 +6,12 @@
                 <h2 class="title"><span>Faça seu cadastramento</span> e entraremos em contato</h2>
 
                 <form action="{{ route('leed') }}" method="post" id="form-register">
+                    
                     <div>
                         <input type="email" name="email" placeholder="E-mail" required>
                         <div hidden="hidden" class="fields-hidden">
-                            <input type="text" name="nome" placeholder="Nome completo" required>
-                            <input type="text" name="nome-empresa" placeholder="Nome da empresa" required>
+                            <input type="text" name="name" placeholder="Nome completo" required>
+                            <input type="text" name="empresa" placeholder="Nome da empresa" required>
                             <input type="tel" name="celular" placeholder="Celular" required>
                             <input type="submit" class="submit" placeholder="Cadastrar">
                         </div>

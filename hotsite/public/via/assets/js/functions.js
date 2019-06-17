@@ -57,16 +57,19 @@
 
         let dt = $('#download').serializeArray();
         //console.log(dt);
+        $('#response').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde, logo seu download irá iniciar!');
 
         $.post('/leed',dt, function(data){
             $('#pdf')[0].click();
+            $('#response').hide();
         },'JSON')
             .fail(function(data){
                 if( data.status === 422 ) {
                     var errors = $.parseJSON(data.responseText);
+                    $('#response').html('');
                     $.each(errors, function (key, value) {
                         // console.log(key+ " " +value);
-                        $('#response').addClass("alert alert-danger");
+                        $('#response').addClass("alert alert-danger").removeClass('alert-success');
 
                         if($.isPlainObject(value)) {
                             $.each(value, function (key, value) {   
@@ -81,7 +84,8 @@
                         }
                     });
                 }
-            });
+            })
+            
         
         //$(this).submit();
     });  
@@ -103,6 +107,31 @@
         // Cancels the form's submit action.
         event.preventDefault();
         $(this).hide();
+        let dt = $('#form-register').serializeArray();
+
+        $.post('/leed',dt, function(data){
+            $('#form-register').hide();
+        },'JSON')
+            .fail(function(data){
+                if( data.status === 422 ) {
+                    var errors = $.parseJSON(data.responseText);
+                    $('.response').html('');
+                    $.each(errors, function (key, value) {
+                        // console.log(key+ " " +value);
+                        $('.response').addClass("alert alert-danger").removeClass('alert-success');
+
+                        if($.isPlainObject(value)) {
+                            $.each(value, function (key, value) {   
+                                //console.log(key+ " " +value);
+                                $('.response').show().append(value+"<br/>");
+                            });
+                        }else{
+                            //$('#response').show().append(value+"<br/>"); //this is my div with messages
+                        }
+                    });
+                }
+            })
+
         $(".response").removeAttr('hidden');
     });
 })(jQuery);
