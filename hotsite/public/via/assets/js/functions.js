@@ -54,7 +54,36 @@
 (function($) {
     $( "#download" ).submit(function(e) {
         e.preventDefault();
-        $('#pdf')[0].click();
+
+        let dt = $('#download').serializeArray();
+        //console.log(dt);
+
+        $.post('/leed',dt, function(data){
+            $('#pdf')[0].click();
+        },'JSON')
+            .fail(function(data){
+                if( data.status === 422 ) {
+                    var errors = $.parseJSON(data.responseText);
+                    $.each(errors, function (key, value) {
+                        // console.log(key+ " " +value);
+                        $('#response').addClass("alert alert-danger");
+
+                        if($.isPlainObject(value)) {
+                            $.each(value, function (key, value) {   
+                                //console.log(key+ " " +value);
+                                $('#response').show().append(value+"<br/>");
+                                if(value == 'Email já cadastrado!'){
+                                    $('#pdf')[0].click();
+                                }
+                            });
+                        }else{
+                            //$('#response').show().append(value+"<br/>"); //this is my div with messages
+                        }
+                    });
+                }
+            });
+        
+        //$(this).submit();
     });  
 })(jQuery);
 

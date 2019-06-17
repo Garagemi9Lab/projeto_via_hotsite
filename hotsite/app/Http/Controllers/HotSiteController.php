@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\LeedRequest;
 use App\Http\Requests\CadastroRequest;
+use App\Lead;
 
 class HotSiteController extends Controller
 {
@@ -34,9 +35,23 @@ class HotSiteController extends Controller
     //cadastro de leed
     public function leed(LeedRequest $request){
         try {
-            dd($request->all());
+            //
+            //Cadastra leed
+            $leed = Lead::create([
+                'email' => request('email'),
+                'name' =>  request('name'),
+                'empresa' => request('empresa'),
+                'celular' => request('celular')
+            ]);
+            //dd($leed);
+            if(isset($leed->id) and !empty($leed->id)){
+                return ['status'=>'true'];
+            }else{
+                return ['status'=>'false'];
+            }
+
         } catch (\Exception $th) {
-            return 'erro';
+            return ['status'=>'false'];
         }
     }
 

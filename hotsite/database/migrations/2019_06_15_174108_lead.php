@@ -14,7 +14,7 @@ class Lead extends Migration
     public function up()
     {
         //
-        Schema::create('leads', function (Blueprint $table) {
+        Schema::create('leeds', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();
