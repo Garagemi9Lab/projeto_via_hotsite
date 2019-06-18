@@ -75,7 +75,7 @@
 
         $.post('/leed',dt, function(data){
             setTimeout(function(){
-                $('#pdf')[0].click();
+                $('#pdf').click();
                 $('#response').hide(0,'linear');
             },3000);
         },'JSON')
@@ -92,7 +92,7 @@
                                 //console.log(key+ " " +value);
                                 $('#response').show().append(value+"<br/>");
                                 if(value == 'Email já cadastrado!'){
-                                    $('#pdf')[0].click();
+                                    $('#pdf').click();
                                 }
                             });
                         }else{

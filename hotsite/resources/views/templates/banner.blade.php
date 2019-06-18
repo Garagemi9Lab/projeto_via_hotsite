@@ -50,7 +50,7 @@
                                 <input type="submit" class="submit" placeholder="Baixar agora">
                             </div>
                             <a href="javascript:void(0)" class="show-fields">Baixar agora</a>
-                            <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download="Tornar-se dono do próprio negócio.pdf" id="pdf" hidden>pdf</a>
+                            <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download="Tornar-se dono do próprio negócio.pdf" id="pdf_dowload" hidden>pdf</a>
                         </div>
                     </form>
                 </div>
