@@ -19,7 +19,7 @@
                             <div hidden="hidden" class="fields-hidden">
                                 <input type="text" name="nomee" placeholder="Nome completo" required>
                                 <input type="text" name="nomee-empresa" placeholder="Nome da empresa" required>
-                                <input type="tel" name="celulear" placeholder="Celular" required>
+                                <input type="tel" name="celulear" placeholder="Celular" class="sp_celphones" required>
                                 <input type="submit" class="submit" placeholder="Baixar agora">
                             </div>
                             <a href="javascript:void(0)" class="show-fields">Baixar agora</a>
@@ -44,7 +44,7 @@
                             <div hidden="hidden" class="fields-hidden">
                                 <input type="text" name="nomee" placeholder="Nome completo" required>
                                 <input type="text" name="nomee-empresa" placeholder="Nome da empresa" required>
-                                <input type="tel" name="celulear" placeholder="Celular" required>
+                                <input type="tel" name="celulear" placeholder="Celular" class="sp_celphones" required>
                                 <input type="submit" class="submit" placeholder="Baixar agora">
                             </div>
                             <a href="javascript:void(0)" class="show-fields">Baixar agora</a>

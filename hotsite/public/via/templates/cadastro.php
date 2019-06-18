@@ -12,7 +12,7 @@
                         <div hidden="hidden" class="fields-hidden">
                             <input type="text" name="nome" placeholder="Nome completo" required>
                             <input type="text" name="nome-empresa" placeholder="Nome da empresa" required>
-                            <input type="tel" name="celular" placeholder="Celular" required>
+                            <input type="tel" name="celular" placeholder="Celular" class="sp_celphones" required>
                             <input type="submit" class="submit" placeholder="Cadastrar">
                         </div>
                         <a href="javascript:void(0)" class="show-fields">Cadastrar</a>
