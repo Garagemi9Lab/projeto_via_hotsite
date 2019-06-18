@@ -31,6 +31,6 @@ class Lead extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('leads');
+        Schema::dropIfExists('leeds');
     }
 }
