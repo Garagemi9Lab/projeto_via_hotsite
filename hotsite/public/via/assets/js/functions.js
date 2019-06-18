@@ -75,7 +75,7 @@
 
         $.post('/leed',dt, function(data){
             setTimeout(function(){
-                $('#pdf').click();
+                $('#pdf')[0].click();
                 $('#response').hide(0,'linear');
             },3000);
         },'JSON')
@@ -92,7 +92,50 @@
                                 //console.log(key+ " " +value);
                                 $('#response').show().append(value+"<br/>");
                                 if(value == 'Email já cadastrado!'){
-                                    $('#pdf').click();
+                                    $('#pdf')[0].click();
+                                }
+                            });
+                        }else{
+                            //$('#response').show().append(value+"<br/>"); //this is my div with messages
+                        }
+                    });
+                }
+            })
+            
+        
+        //$(this).submit();
+    });  
+
+    $( "#download2" ).submit(function(e) {
+        e.preventDefault();
+
+        let dt = $('#download2').serializeArray();
+        //console.log(dt);
+        $('#response2').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde, logo seu download irá iniciar!');
+
+        $.post('/leed',dt, function(data){
+            setTimeout(function(){
+                $('#response2').hide(0,'linear');
+                window.location.href = $('a#pdf2').prop('href')
+                
+            },3000);
+        },'JSON')
+            .fail(function(data){
+                if( data.status === 422 ) {
+                    var errors = $.parseJSON(data.responseText);
+                    $('#response2').html('');
+                    $.each(errors, function (key, value) {
+                        // console.log(key+ " " +value);
+                        $('#response2').addClass("alert alert-danger").removeClass('alert-success');
+
+                        if($.isPlainObject(value)) {
+                            $.each(value, function (key, value) {   
+                                //console.log(key+ " " +value);
+                                $('#response2').show().append(value+"<br/>");
+                                if(value == 'Email já cadastrado!'){
+                                    window.location.href = $('a#pdf2').prop('href')
+                                    //alert($('a#pdf2').prop('href'))
+                                    //$('a#pdf2').click();
                                 }
                             });
                         }else{

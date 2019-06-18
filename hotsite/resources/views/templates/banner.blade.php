@@ -24,7 +24,7 @@
                                 <input type="tel" name="celular" placeholder="Celular" class="sp_celphones" required>
                                 <input type="submit" class="submit" placeholder="Baixar agora">
                             </div>
-                            <a href="javascript:void(0)" class="show-fields">Baixar agora</a>
+                            <a href="javascript:void(0)" id="btnBaixarAgora" class="show-fields">Baixar agora</a>
                             <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download="Tornar-se dono do próprio negócio.pdf" id="pdf" hidden>pdf</a>
                         </div>
                     </form>
@@ -40,7 +40,8 @@
         <div class="row">
             <div class="col-xs-12 col-md-12 col-lg-12">
                 <div class="form download d-block">
-                    <form method="post" action="{{ route('leed') }}" id="download">
+                    <form method="post" action="{{ route('leed') }}" id="download2">
+                        <div id="response2"></div>
                         <div>
                             <input type="email" name="email" placeholder="E-mail" required>
                             <div hidden="hidden" class="fields-hidden">
@@ -49,8 +50,8 @@
                                 <input type="tel" name="celular" placeholder="Celular" class="sp_celphones" required>
                                 <input type="submit" class="submit" placeholder="Baixar agora">
                             </div>
-                            <a href="javascript:void(0)" class="show-fields">Baixar agora</a>
-                            <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download="Tornar-se dono do próprio negócio.pdf" id="pdf_dowload" hidden>pdf</a>
+                            <a href="javascript:void(0)" id="btnBaixarAgora" class="show-fields">Baixar agora</a>
+                            <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download id="pdf2" hidden>pdf</a>
                         </div>
                     </form>
                 </div>
