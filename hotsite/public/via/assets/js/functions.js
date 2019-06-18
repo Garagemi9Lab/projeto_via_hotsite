@@ -74,8 +74,10 @@
         $('#response').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde, logo seu download irá iniciar!');
 
         $.post('/leed',dt, function(data){
-            $('#pdf')[0].click();
-            $('#response').hide();
+            setTimeout(function(){
+                $('#pdf')[0].click();
+                $('#response').hide(0,'linear');
+            },3000);
         },'JSON')
             .fail(function(data){
                 if( data.status === 422 ) {
