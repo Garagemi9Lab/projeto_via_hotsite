@@ -1,5 +1,19 @@
 //Slider de clientes
 (function($) {
+
+    var SPMaskBehavior = function (val) {
+        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+      },
+      spOptions = {
+        onKeyPress: function(val, e, field, options) {
+            field.mask(SPMaskBehavior.apply({}, arguments), options);
+          }
+      };
+    
+      $('.sp_celphones').mask(SPMaskBehavior, spOptions);
+
+
+
     $('.customers-slider').slick({
         prevArrow:"<button type='button' class='slick-prev pull-left partnership-arrow'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
         nextArrow:"<button type='button' class='slick-next pull-right partnership-arrow'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
