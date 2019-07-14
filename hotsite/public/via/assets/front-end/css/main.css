@@ -294,6 +294,10 @@ footer {
   }
 
 @media screen and (max-width: 768px) {
+
+  .customers .customers-slider .slick-slide{
+    margin: 10px !important;
+  }
   section#bt_conheca_mais a {
     background-color: #FB813F;
     color: #fff !important;
