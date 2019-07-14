@@ -341,7 +341,7 @@ footer {
   .banner {
     justify-content: flex-start;
     min-height: 310px;
-    background: url(../../images/banners/b3.jpg) center center no-repeat;
+    background: url(../../images/banners/b3.jpg) right center no-repeat;
     background-size: cover;
 }
 .banner .container{
