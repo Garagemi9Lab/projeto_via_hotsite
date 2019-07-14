@@ -12,11 +12,17 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <img src="{{ asset('via/assets/images/sobre-a-via.jpg') }}">  
-                        <h1 class="title">Muito mais do que soluções:<span> resultados</span></h1>
+                        <h1 class="title">MUITO MAIS DO QUE UM SISTEMA:<span> UMA SOLUÇÃO FEITA PARA VOCÊ</span></h1>
                         <?php //echo the_content(); ?>
-                        <p>Administrar empresas envolve comprometimento, conhecimento e experiência. E nós agregamos esses fatores com a precisão da tecnologia. 
-                            Através da nossa ferramenta exclusiva, geramos dados sobre gestão empresarial, gestão orçamentária, contabilidade fiscal, 
-                            controle patrimonial e criamos soluções inovadoras. Isso reflete em confiança nas decisões que você toma na sua empresa.</p>
+                        <p style="font-size:1.9rem; line-height:2.2rem !important;">
+                            Manter as contas a pagar e a receber atualizados, ter uma boa gestão financeira, administrar o departamento pessoal e cuidar da contabilidade, são os grandes desafios para o sucesso do seu negócio. Com a VIA você faz tudo isso de forma rápida, prática e eficiente, e o que é melhor: <b>GASTANDO MUITO MENOS DO QUE IMAGINA.</b>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center" style="padding-top:80px;padding-bottom:80px;">
+                        <a href="http://via.com.vc" style="font-size:2.5rem; background-color: #FB813F; color:#fff; padding:10px 50px; font-weight:bold">CLIQUE AQUI E FALE COM A GENTE</a>
                     </div>
                 </div>
             </div>

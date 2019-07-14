@@ -2,6 +2,12 @@ p{
   line-height: 16px !important;
 }
 
+.texto1{
+  font-size: 2rem;
+  padding: 40px 30px;
+  line-height: 3.5rem !important;
+}
+
 header {
   padding: 1rem 0;
   background: #00a3c0; }
@@ -17,12 +23,17 @@ header {
       list-style: none; }
       header nav li a {
         padding: 0 1rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-weight: 300;
         color: #fff; }
         header nav li a:hover {
-          font-weight: bold;
+          font-weight: 550;
+          text-decoration: none;
           color: #fff; }
+
+          #links-footer a, #links-footer p{
+            font-size: 1.2rem !important;
+          }
 
 .bg {
   display: flex;
@@ -36,15 +47,15 @@ header {
 
 .title {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 3rem;
   text-transform: uppercase; }
   .title span {
     font-family: Montserrat-bold; }
 
 .banner {
   justify-content: flex-start;
-  min-height: 480px;
-  background: url(../../images/banner.jpg) center center no-repeat;
+  min-height: 600px;
+  background: url(../../images/banners/b4.jpg) center center no-repeat;
   background-size: cover; }
   .banner h2 {
     font-size: 3rem;
@@ -111,8 +122,25 @@ header {
         max-width: 100%;
         height: 80px; }
 
+#conheca h2{
+  color: #fff !important;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#conheca p{
+  color: #333 !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2rem !important;
+}
+
+#conheca div{
+  padding: 20px 60px;
+}
+
 .about-via {
-  background: url(../../images/banner-conhecaa-a-via.jpg) center center no-repeat;
+  background-color:  #00a3c0;
   background-size: cover; }
   .about-via .row > div {
     text-align: center; }
@@ -153,7 +181,7 @@ header {
 .form form {
   margin: 2rem 0; }
   .form form > div {
-    width: 50%; }
+    width: 70%; }
   .form form input {
     padding: 0.8rem;
     margin-bottom: 1rem;
@@ -228,7 +256,7 @@ footer {
   footer .copyright p {
     text-align: left;
     text-transform: uppercase;
-    font-size: 0.7rem; }
+    font-size: 1rem; }
 
 .about {
   padding: 4rem 0; }
@@ -297,3 +325,8 @@ footer {
     text-align: center; }
   footer .copyright p {
     text-align: center; } }
+
+
+    footer #policy p, footer #policy span{
+      font-size: 1rem !important;
+    }

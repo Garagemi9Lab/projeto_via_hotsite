@@ -9,12 +9,15 @@
         <div class="row">
 
             <div class="col-xs-12 col-md-4 col-lg-3 f-col-1">
-                <div>
+                <div id="links-footer">
                     <div class="col-links">
                         <div>
                             <h2>Mapa</h2>
                             <a href="{{ route('sobre') }}">Sobre</a>
-                            <a href="http://via.com.vc" target="_blank">Via portal</a>
+                            <a href="http://via.com.vc/mercado-varejo">Mercados</a>
+                            <a href="http://via.com.vc" target="_blank">VIA portal</a>
+                            <a href="http://via.com.vc/blog">Blog</a>
+                            <a href="http://via.com.vc/contato">Contato</a>
                         </div>
                     </div>
 
@@ -37,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-md-4 col-lg-4 f-col-3">
+            <div class="col-xs-12 col-md-4 col-lg-4 f-col-3" id="policy">
                 <div class="col-policy">
                     <p>Compliance with Our Privacy Policy</p>
                     <span>We use the information we collect only in compliance with this Privacy Policy. 
@@ -57,6 +60,7 @@
 
         <div class="row">
             <div class="col-xs-12 col-md-12 col-lg-12 copyright">
+                <br>
                 <p>©2016 – Via todos os direitos reservados<p>
             </div>
         </div>

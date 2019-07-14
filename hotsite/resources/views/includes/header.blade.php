@@ -26,27 +26,29 @@
 
 	<body class="">
         @php /*body_class();*/ @endphp
-
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-4 col-md-4 col-lg-4">
-                        <a href="{{ route('index') }}">
-							<img src="{{ asset('via/assets/images/logomarca-via.png') }}" alt="Logomarca Via" class="logo">
-						</a> 
-					</div> 
-					<div class="col-xs-8 col-md-8 col-lg-8">
-						<!-- MENU -->
-						<nav>
-							<ul>
-								<li>
-                                    <a href="{{route('sobre')}}">Sobre</a>
-									<a href="{{route('index')}}/#register">Cadastro</a>
-								</li>
-							</ul>
-						</nav>
-						<!-- MENU -->
+		<style>
+			body { padding-top: 70px; }
+		</style>
+		<nav class="navbar  navbar-fixed-top">
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4 col-md-4 col-lg-4">
+							<a href="{{ route('index') }}">
+								<img src="{{ asset('via/assets/images/logomarca-via.png') }}" alt="Logomarca Via" class="logo">
+							</a> 
+						</div> 
+						<div class="col-xs-8 col-md-8 col-lg-8">
+							<nav>
+								<ul>
+									<li>
+										<a href="{{route('sobre')}}">Sobre</a>
+										<a href="{{route('index')}}/#register">Cadastro</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
 					</div>
 				</div>
-			</div>
-		</header>
+			</header>
+		</nav>

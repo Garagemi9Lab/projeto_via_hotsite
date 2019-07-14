@@ -18,7 +18,6 @@
         @include('templates.conheca')
 
         <!-- .cadastro. -->
-        @include('templates.cadastro')
 
 	</main><!-- .site-main -->
 </div><!-- .content-area -->

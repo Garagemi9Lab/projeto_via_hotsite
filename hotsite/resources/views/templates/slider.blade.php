@@ -16,7 +16,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h2>Controles Financeiros e Orçamentários </br><b>para sua empresa</b></h2>
+                                <!--h2>Controles Financeiros e Orçamentários </br><b>para sua empresa</b></h2-->
+                                <h2>Simplifique e automatize <br> <b>a gestão do seu negócio</b> </h2>
                             </div>
                         </div>
                     </div>
@@ -40,7 +41,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h2>Gestão de negócios alinhada </br><b> com as suas metas</b></h2>
+                                <!--h2>Gestão de negócios alinhada </br><b> com as suas metas</b></h2-->
+                                <h2>Reduza seus custos e ganhe <br> <b>muito mais eficiência e liberdade</b> </h2>
                             </div>
                         </div>
                     </div>
