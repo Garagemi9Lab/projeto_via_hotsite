@@ -3,7 +3,9 @@
 	//$urlTema = get_template_directory_uri();
 @endphp
 
-
+<style>
+    
+</style>
 
 
 <section class="banner bg" id="banner">
@@ -12,7 +14,7 @@
             <div class="col-xs-12 col-md-6 col-lg-6">
 
                 <div class="content" style="color:#fff; ">  
-                    <h2 style="font-size:4rem !important; font-weight:lighter">A GENTE RESOLVE SEU DIA A DIA, PRA VOCÊ FOCAR NAS DECISÕES MAIS IMPORTANTES.</h2>
+                    <h2 class="textoBanner1">A GENTE RESOLVE SEU DIA A DIA, PRA VOCÊ FOCAR NAS DECISÕES MAIS IMPORTANTES.</h2>
                     <br>
                     <h2 style="font-weight:bold;">VIA: A PLATAFORMA <br>INTELIGENTE <br>QUE TRABALHA <br>POR VOCÊ.</span>
                 </div>	
@@ -48,14 +50,14 @@
                     <form method="post" action="{{ route('leed') }}" id="download2">
                         <div id="response2"></div>
                         <div>
-                            <input type="email" name="email" placeholder="E-mail" required>
                             <div hidden="hidden" class="fields-hidden">
+                                <input type="email" name="email" placeholder="E-mail" required>
                                 <input type="text" name="name" placeholder="Nome completo" required>
                                 <input type="text" name="empresa" placeholder="Nome da empresa" required>
                                 <input type="tel" name="celular" placeholder="Celular" class="sp_celphones" required>
-                                <input type="submit" class="submit" placeholder="Baixar agora">
+                                <input type="submit" class="submit" placeholder="Baixar agora" style="background-color: #FB813F;">
                             </div>
-                            <a href="javascript:void(0)" id="btnBaixarAgora" class="show-fields">Baixar agora</a>
+                            <a href="javascript:void(0)" id="btnBaixarAgora" class="show-fields" style="background-color: #FB813F;">CADASTRAR</a>
                             <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download id="pdf2" hidden>pdf</a>
                         </div>
                     </form>

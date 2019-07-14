@@ -31,7 +31,7 @@ header {
           text-decoration: none;
           color: #fff; }
 
-          #links-footer a, #links-footer p{
+          #links-footer a, #links-footer p, #links-footer span{
             font-size: 1.2rem !important;
           }
 
@@ -277,7 +277,45 @@ footer {
         margin-bottom: -10px;
       }
 
+      h2.textoBanner1{
+        font-size:4rem !important; 
+        font-weight:lighter
+    }
+
+    section#bt_conheca_mais{
+      padding:80px 20px;
+  }
+  section#bt_conheca_mais a{
+      background-color: #FB813F;
+      color: #fff !important;
+      font-size: 3rem;
+      padding: 10px 60px;
+      font-weight: bold;
+  }
+
 @media screen and (max-width: 768px) {
+  section#bt_conheca_mais a {
+    background-color: #FB813F;
+    color: #fff !important;
+    font-size: 1.4rem;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+  section#bt_conheca_mais {
+    padding: 80px 0px;
+}
+
+  .texto1 {
+    font-size: 1.6rem;
+    padding: 0px; 
+    line-height: 2.5rem !important;
+    text-align: justify;
+}
+
+  h2.textoBanner1{
+    font-size:2rem !important; 
+    font-weight:lighter
+}
   ul {
     margin-bottom: -10px;
   }
@@ -285,24 +323,28 @@ footer {
     padding: 0px;
     margin-bottom: 0px;
   }
+  header .logo {
+    max-width: 90px;
+    margin:15px 0px;
+}
 
   header nav li a {
     padding: 0 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #fff;
 }
   .banner {
     justify-content: flex-start;
     min-height: 310px;
-    background: url(../../images/banner.jpg) center center no-repeat;
+    background: url(../../images/banners/b4.jpg) center center no-repeat;
     background-size: cover;
 }
 .banner .container{
   margin-left: 20px !important;
 }
   .banner h2 {
-    max-width: 80%;
+    max-width: 100%;
     font-size: 2.3rem; }
   .banner .d-none {
     display: none; }

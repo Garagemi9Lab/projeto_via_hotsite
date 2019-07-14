@@ -49,15 +49,3 @@
     </div>
 </section>
 
-<style>
-    section#bt_conheca_mais{
-        padding:80px 20px;
-    }
-    section#bt_conheca_mais a{
-        background-color: #FB813F;
-        color: #fff !important;
-        font-size: 3rem;
-        padding: 10px 60px;
-        font-weight: bold;
-    }
-</style>

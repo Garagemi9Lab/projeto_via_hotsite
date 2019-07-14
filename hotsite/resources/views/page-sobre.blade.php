@@ -22,7 +22,25 @@
 
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12 text-center" style="padding-top:80px;padding-bottom:80px;">
-                        <a href="http://via.com.vc" style="font-size:2.5rem; background-color: #FB813F; color:#fff; padding:10px 50px; font-weight:bold">CLIQUE AQUI E FALE COM A GENTE</a>
+                        <style>
+                            .btn-clique-aqui{
+                                font-size:2.5rem; 
+                                background-color: #FB813F;
+                                color:#fff; 
+                                padding:10px 50px; 
+                                font-weight:bold;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                .btn-clique-aqui{
+                                    font-size:1.4rem; 
+                                    padding:10px 10px; 
+                                }
+
+                                
+                            }
+                        </style>
+                        <a href="http://via.com.vc" class="btn-clique-aqui" style="">CLIQUE AQUI E FALE COM A GENTE</a>
                     </div>
                 </div>
             </div>
