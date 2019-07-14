@@ -55,7 +55,7 @@ header {
 .banner {
   justify-content: flex-start;
   min-height: 600px;
-  background: url(../../images/banners/b4.jpg) center center no-repeat;
+  background: url(../../images/banners/b3.jpg) center center no-repeat;
   background-size: cover; }
   .banner h2 {
     font-size: 3rem;
@@ -337,7 +337,7 @@ footer {
   .banner {
     justify-content: flex-start;
     min-height: 310px;
-    background: url(../../images/banners/b4.jpg) center center no-repeat;
+    background: url(../../images/banners/b3.jpg) center center no-repeat;
     background-size: cover;
 }
 .banner .container{

@@ -85,7 +85,7 @@
             },5000)
             
         }
-        mudarBanner();
+        //mudarBanner();
 </script>
 
 
