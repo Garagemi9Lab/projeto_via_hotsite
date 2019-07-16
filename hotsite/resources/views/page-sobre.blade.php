@@ -40,7 +40,7 @@
                                 
                             }
                         </style>
-                        <a href="http://via.com.vc" class="btn-clique-aqui" style="">CLIQUE AQUI E FALE COM A GENTE</a>
+                        <a href="{{route('index')}}/#register" class="btn-clique-aqui" style="">CLIQUE AQUI E FALE COM A GENTE</a>
                     </div>
                 </div>
             </div>

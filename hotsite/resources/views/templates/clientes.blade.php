@@ -5,14 +5,7 @@
                 <h2 class="title">Conheça <span>nossos clientes</span></h2>
 
                 <div class="customers-slider">
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/bros.png') }}"></div>     
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/busger.jpeg') }}"></div> 
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/chilli-beans.jpg') }}"></div>    
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/clube-melissa.jpg') }}"></div> 
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/dry-wash.jpg') }}"></div> 
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/mundo-verde.jpg') }}"></div> 
                     
-
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/2.png') }}"></div> 
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/3.png') }}"></div> 
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/5.jpg') }}"></div> 
@@ -25,6 +18,9 @@
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/13.png') }}"></div> 
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/14.jpg') }}"></div> 
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/16.png') }}"></div> 
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/17.png') }}"></div> 
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/18.png') }}"></div>
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/19.png') }}"></div> 
                     
                 </div>
 

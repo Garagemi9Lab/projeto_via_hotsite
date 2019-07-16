@@ -75,7 +75,7 @@
 
         $.post('/leed',dt, function(data){
             setTimeout(function(){
-                $('#pdf')[0].click();
+                //$('#pdf')[0].click();
                 $('#response').hide(0,'linear');
             },3000);
         },'JSON')
@@ -92,7 +92,7 @@
                                 //console.log(key+ " " +value);
                                 $('#response').show().append(value+"<br/>");
                                 if(value == 'Email já cadastrado!'){
-                                    $('#pdf')[0].click();
+                                    //$('#pdf')[0].click();
                                 }
                             });
                         }else{
@@ -111,12 +111,12 @@
 
         let dt = $('#download2').serializeArray();
         //console.log(dt);
-        $('#response2').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde, logo seu download irá iniciar!');
+        //$('#response2').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde, logo seu download irá iniciar!');
 
         $.post('/leed',dt, function(data){
             setTimeout(function(){
                 $('#response2').hide(0,'linear');
-                window.location.href = $('a#pdf2').prop('href')
+                //window.location.href = $('a#pdf2').prop('href')
                 
             },3000);
         },'JSON')
@@ -133,7 +133,7 @@
                                 //console.log(key+ " " +value);
                                 $('#response2').show().append(value+"<br/>");
                                 if(value == 'Email já cadastrado!'){
-                                    window.location.href = $('a#pdf2').prop('href')
+                                    //window.location.href = $('a#pdf2').prop('href')
                                     //alert($('a#pdf2').prop('href'))
                                     //$('a#pdf2').click();
                                 }
@@ -193,5 +193,44 @@
 
         $(".response").removeAttr('hidden');
     });
+    
 })(jQuery);
+
+var clickCadastrar = ()=>{
+    document.querySelector('#btnBaixarAgora').click();
+    document.querySelector('#download2 a#btnBaixarAgora').click();
+    window.scrollTo(0,50);
+}
+
+var url = window.location.href;
+if(url.indexOf('#register') > -1){
+    clickCadastrar();
+}
+
+var btnCadastro = document.getElementById('btnCadastro');
+btnCadastro.addEventListener('click',function(e){
+    e.preventDefault();
+    
+    let page = window.location.pathname.replace('/','');
+    if(page == ''){
+        clickCadastrar();
+    }else{
+        window.location.href = btnCadastro.getAttribute("href");
+    }
+});
+
+var cd2 = document.getElementById('cadastrar2');
+cd2.addEventListener('click',function(e){
+    e.preventDefault();
+
+    let cd1 = document.querySelector('.download .show-fields');
+    //cd1.click();
+    cd3 = document.getElementById('btnBaixarAgora')
+    cd3.click();
+    
+
+    cd4 = document.querySelector('#download2 a#btnBaixarAgora');
+    cd4.click();
+    window.scrollTo(0,30);
+})
 

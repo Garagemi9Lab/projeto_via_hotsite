@@ -376,3 +376,8 @@ footer {
     footer #policy p, footer #policy span{
       font-size: 1rem !important;
     }
+
+
+    form#download input{
+      color:#fff;
+    }

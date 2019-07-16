@@ -43,7 +43,7 @@
 								<ul>
 									<li>
 										<a href="{{route('sobre')}}">Sobre</a>
-										<a href="{{route('index')}}/#register">Cadastro</a>
+										<a href="{{route('index')}}/#register" id="btnCadastro">Cadastro</a>
 									</li>
 								</ul>
 							</nav>

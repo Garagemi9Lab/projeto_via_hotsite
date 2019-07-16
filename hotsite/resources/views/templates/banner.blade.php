@@ -16,7 +16,7 @@
                 <div class="content" style="color:#fff; ">  
                     <h2 class="textoBanner1">A GENTE RESOLVE SEU DIA A DIA, PRA VOCÊ FOCAR NAS DECISÕES MAIS IMPORTANTES.</h2>
                     <br>
-                    <h2 style="font-weight:bold;">VIA: A PLATAFORMA <br>INTELIGENTE <br>QUE TRABALHA <br>POR VOCÊ.</span>
+                    <h2 style="font-weight:bold;">VIA A PLATAFORMA <br>INTELIGENTE <br>QUE TRABALHA <br>POR VOCÊ.</span>
                 </div>	
 
                 <div class="form download d-none">
@@ -29,7 +29,7 @@
                                 <input type="text" name="name" placeholder="Nome completo" required>
                                 <input type="text" name="empresa" placeholder="Nome da empresa" required>
                                 <input type="tel" name="celular" placeholder="Celular" class="sp_celphones" required>
-                                <input type="submit" class="submit" placeholder="Baixar agora" style="font-size:2.5rem; background-color: #FB813F; margin-top:50px;">
+                                <input type="submit" class="submit" value="CADASTRAR" placeholder="Baixar agora" style="font-size:2.5rem; background-color: #FB813F; margin-top:50px;">
                             </div>
                             <a href="javascript:void(0)" id="btnBaixarAgora" class="show-fields" style="font-size:2.5rem; background-color: #FB813F; margin-top:50px;">CADASTRAR</a>
                             <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download="Tornar-se dono do próprio negócio.pdf" id="pdf" hidden>pdf</a>
@@ -51,11 +51,11 @@
                         <div id="response2"></div>
                         <div>
                             <div hidden="hidden" class="fields-hidden">
-                                <input type="email" name="email" placeholder="E-mail" required>
+                                <input type="email" name="email" id="email" placeholder="E-mail" required>
                                 <input type="text" name="name" placeholder="Nome completo" required>
                                 <input type="text" name="empresa" placeholder="Nome da empresa" required>
                                 <input type="tel" name="celular" placeholder="Celular" class="sp_celphones" required>
-                                <input type="submit" class="submit" placeholder="Baixar agora" style="background-color: #FB813F;">
+                                <input type="submit" class="submit" value="CADASTRAR" placeholder="Baixar agora" style="background-color: #FB813F;">
                             </div>
                             <a href="javascript:void(0)" id="btnBaixarAgora" class="show-fields" style="background-color: #FB813F;">CADASTRAR</a>
                             <a href="{{ asset('via/assets/pdf/tornar-se-dono-do-proprio-negocio.pdf') }}" download id="pdf2" hidden>pdf</a>

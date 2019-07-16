@@ -44,8 +44,7 @@
 <section id="bt_conheca_mais">
     <div class="container">
         <div class="col-sm-12 text-center" >
-            <a href="http://via.com.vc">CLIQUE AQUI E CONHEÇA MAIS</a>
+            <a href="javascript:void(0)" id="cadastrar2">CADASTRAR</a>
         </div>
     </div>
 </section>
-
