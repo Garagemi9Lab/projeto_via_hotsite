@@ -19,7 +19,11 @@
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/11.png') }}"></div> 
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/12.png') }}"></div> 
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/13.png') }}"></div> 
-                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/14.png') }}"></div> 
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/14.png') }}"></div>
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/15.png') }}"></div>
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/16.png') }}"></div>
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/17.png') }}"></div>
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/18.png') }}"></div> 
                     
                 </div>
             </div>
