@@ -24,6 +24,8 @@
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/16.png') }}"></div>
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/17.png') }}"></div>
                     <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/18.png') }}"></div> 
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/19.png') }}"></div> 
+                    <div><img class="customers-logo" src="{{ asset('via/assets/images/clientes/20.png') }}"></div> 
                     
                 </div>
             </div>
