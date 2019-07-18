@@ -14,9 +14,9 @@
             <div class="col-xs-12 col-md-6 col-lg-6">
 
                 <div class="content" style="color:#fff; ">  
-                    <h2 class="textoBanner1"><b>A GENTE RESOLVE SEU DIA A DIA, PRA VOCÊ FOCAR NAS DECISÕES MAIS IMPORTANTES.</b></h2>
+                    <h2 class="textoBanner1">A GENTE RESOLVE SEU DIA A DIA, PRA VOCÊ FOCAR NAS DECISÕES MAIS IMPORTANTES.</h2>
                     <br>
-                    <h2 style="font-weight:bold;"><b>VIA, A PLATAFORMA <br>INTELIGENTE <br>QUE TRABALHA <br>POR VOCÊ.</b></h2>
+                    <h2 style="font-weight:bold;">VIA, A PLATAFORMA <br>INTELIGENTE <br>QUE TRABALHA <br>POR VOCÊ.</h2>
                 </div>	
 
                 <div class="form download d-none">

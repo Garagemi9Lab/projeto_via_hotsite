@@ -380,4 +380,11 @@ footer {
 
     form#download input{
       color:#fff;
+      font-weight: bold !important;
+      text-transform: uppercase;
+    }
+
+    form#download2 input{
+      font-weight: bold !important;
+      text-transform: uppercase;
     }
