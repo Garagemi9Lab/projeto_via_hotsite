@@ -71,12 +71,15 @@
 
         let dt = $('#download').serializeArray();
         //console.log(dt);
-        $('#response').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde, logo seu download irá iniciar!');
+        $('#response').addClass("alert alert-success").removeClass('alert-danger').html('Aguarde...');
 
         $.post('/leed',dt, function(data){
             setTimeout(function(){
                 //$('#pdf')[0].click();
                 $('#response').hide(0,'linear');
+                if(data.status === true){
+                    $('#response').show().addClass("alert alert-success").removeClass('alert-danger').html('Dados salvos, logo entraremos em contato...')
+                }
             },3000);
         },'JSON')
             .fail(function(data){
