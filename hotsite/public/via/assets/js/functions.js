@@ -77,7 +77,7 @@
             setTimeout(function(){
                 //$('#pdf')[0].click();
                 $('#response').hide(0,'linear');
-                if(data.status === true){
+                if(data.status == "true"){
                     $('#response').show().addClass("alert alert-success").removeClass('alert-danger').html('Dados salvos, logo entraremos em contato...')
                 }
             },3000);
