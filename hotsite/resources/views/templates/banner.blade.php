@@ -99,8 +99,8 @@
                         var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
                 })(window,document,'https://via.bitrix24.com.br/bitrix/js/crm/form_loader.js','b24form');
 
-                b24form({"id":"8","lang":"br","sec":"01j0jo","type":"inline"});
-            </script>    
+                b24form({"id":"10","lang":"br","sec":"qcjtxr","type":"inline"});
+        </script>    
         </div>
     </div>   
 </section>
