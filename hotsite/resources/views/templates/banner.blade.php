@@ -109,7 +109,7 @@
     <div class="container">
         <div class="col-sm-12">
             <p class="texto1">
-                Existem ações que só você pode fazer. E existem outras que a agente pode executar: contabilidade, gestão financeira, gestão de funcionários e muito mais. Garantimos uma operação mais eficiente, reduzimos gastos e aumentamos a produtividade do seu negócio. Com isso, você ganha tempo para focar no que realmente interessa: o crescimento da sua empresa.
+                Existem ações que só você pode fazer. E existem outras que a gente pode executar: contabilidade, gestão financeira, gestão de funcionários e muito mais. Garantimos uma operação mais eficiente, reduzimos gastos e aumentamos a produtividade do seu negócio. Com isso, você ganha tempo para focar no que realmente interessa: o crescimento da sua empresa.
             </p>
         </div>
     </div>
